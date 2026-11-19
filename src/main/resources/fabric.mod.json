@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "smoothbg",
+  "version": "${version}",
+  "name": "SmoothBG",
+  "description": "Low-overhead background governor: duty-cycled worker, tick-pressure backoff, unfocused-window throttling. No visual or particle changes.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.smoothbg.SmoothBg"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
